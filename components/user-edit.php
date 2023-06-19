@@ -62,8 +62,8 @@
                                         <!--TÍPUS-->
                                         <label for="exampleInputEmail1">TÍPUS</label>
                                         <select name="type" class="form-control">
-                                            <option value="user">Felhasználó</option>
                                             <option value="admin">Admin</option>
+                                            <option value="user">Felhasználó</option>
                                         </select>
                                     </div>
 
