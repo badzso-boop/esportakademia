@@ -1,0 +1,107 @@
+.fade-out {
+	animation: fadeOut 2s;
+  	opacity: 0;
+}
+
+@keyframes fadeOut {
+  from {
+  	opacity: 1;
+  }
+  to {
+ 	opacity: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .nav-footer {
+    display: none!important;
+  }
+
+  .kep {
+    width: 10rem !important;
+    height: 10rem !important;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  .kep-rounded {
+    width: 10rem !important;
+    height: 10rem !important;
+    object-fit: cover;
+    border-radius: 15%;
+    border: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-header {
+    display: none!important;
+  }
+
+  .kep-telo {
+    width: 6rem !important;
+    height: 6rem !important;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .kep-telo-rounded {
+    width: 6rem !important;
+    height: 6rem !important;
+    object-fit: cover;
+    border-radius: 15%;
+    border: 2px solid black;
+  }
+}
+
+.icon {
+  font-size: 1.5rem!important;
+}
+
+.iconHeader {
+  font-size: 2rem!important;
+}
+
+.icon-text {
+  font-size: 0.8rem!important;
+}
+
+.feher {
+  color: white!important;
+  background-color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 97%!important;
+  }
+}
+
+.footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+
+.spacer {
+  height: 8rem;
+}
+
+.hide {
+  display: none;
+}
+
+.comment {
+  font-size: 2rem;
+}
+
+.kep-comment {
+  width: 5rem !important;
+  height: 5rem !important;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid black;
+}
